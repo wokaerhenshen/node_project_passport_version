@@ -30,6 +30,7 @@
                 map: map
               });
             }else {
+              //why do this bug occur? need to figure it out
               alert("error in "+ usersJson[x-1].Email+", it seems like his address is wrong!")
             }
         });
@@ -41,10 +42,11 @@
 <a href="/boats/list">Boat List</a>
 <a href="/logout">Logout</a>
 
-
+<h2>Users location Map</h2>
 <div id="map_canvas" style="    width: 100%;
 height: 500px;" ></div>
 
+<h2>Users list</h2>
 <table class="table">
         <th>Email</th>
         <th>FirstName</th>
