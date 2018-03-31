@@ -18,10 +18,10 @@
     var addreses = []
     var usersString = '<%- JSON.stringify(users) %>'
     var usersJson = JSON.parse(usersString)
-    alert(usersJson.length)
+    //alert(usersJson.length)
     for (var x = 0; x < usersJson.length; x++) {
-      alert(usersJson[x].Address[0].Street)
-        $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address='+usersJson[x].Address[0].Street+" "+usersJson[x].Address[0].City+" "+usersJson[x].Address[0].Province+" "+usersJson[x].Address[0].PostalCode+" "+usersJson[x].Address[0].Country+'&sensor=false', null, function (data) {
+    //  alert(usersJson[x].Address[0].Street)
+        $.getJSON('https://maps.googleapis.com/maps/api/geocode/json?address='+usersJson[x].Address[0].Street+" "+usersJson[x].Address[0].City+" "+usersJson[x].Address[0].Province+" "+usersJson[x].Address[0].PostalCode+" "+usersJson[x].Address[0].Country+'&key=AIzaSyBKtdwDUEBfyH1WIceQmylNKXn0HfT4LyU', null, function (data) {
             if (data.results[0] !== undefined){
               var p = data.results[0].geometry.location
               var latlng = new google.maps.LatLng(p.lat, p.lng);
