@@ -1,0 +1,33 @@
+<% if (typeof(errors) != "undefined") { %>
+    <% for (var error of errors){%>
+    <div class="alert alert-danger"><%= error.msg %></div>
+<% }}else {  %>
+    <div class="alert alert-danger">no errors for now</div>
+<% } %>
+<form name="form2" method="POST" action="/boats/create">
+    <table>
+        <tr>
+        <td>BoatName</td>
+        <td><input type="text" name="BoatName" ></td>
+        </tr>
+        <tr>
+        <td>BoatLengthInFeet</td>
+        <td><input type="text" name="BoatLengthInFeet" ></td>
+        </tr>
+        <tr>
+        <td>BoatYear</td> 
+        <td><input type="text" name="BoatYear" ></td>
+        </tr>
+        <tr>
+        <td>BoatCapacityInPeople</td>
+        <td><input type="text" name="BoatCapacityInPeople" ></td>
+        </tr>
+        <tr>
+        <td>BoatPictureUrl</td>
+        <td><input type="text" name="BoatPictureUrl" ></td>
+        </tr>        
+        <tr>
+        <td ><input type="submit" value="Create" ></td>
+        </tr>
+    </table>
+</form>

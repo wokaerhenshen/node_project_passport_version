@@ -1,0 +1,31 @@
+
+<!-- <%- layout('layout.ejs') %> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<a href="/users/list">User List</a>
+<a href="/boats/list">Boat List</a>
+<a href="/logout">Logout</a>
+
+<br>
+<a href="/boats/addBoat">Add boat</a>
+
+<table class="table">
+        <th>BoatName</th>
+        <th>BoatLengthInFeet</th>
+        <th>BoatYear</th>
+        <th>BoatCapacityInPeople</th>
+        <th>BoatPictureUrl</th>
+        <th></th>
+        <th></th>
+        <% for(var i=0; i < boats.length; i++) { %>
+        <tr scope="row">
+         <td><%- boats[i].BoatName %></td>
+         <td><%- boats[i].BoatLengthInFeet %></td>
+         <td><%- boats[i].BoatYear %></td>
+         <td><%- boats[i].BoatCapacityInPeople %></td>
+         <td><%- boats[i].BoatPictureUrl %></td>
+         <td><a href="/boats/update/<%- boats[i]._id %>" >Update</a></td>
+         <td><a href="/boats/delete/<%- boats[i]._id %>">Delete</a></td>
+         </tr>
+        <% } %>
+</table>

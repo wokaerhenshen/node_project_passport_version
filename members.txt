@@ -1,0 +1,200 @@
+[
+{
+FirstName:"Karl",
+LastName:"Xu",
+
+Address:{
+Street:"6520 Clematis Drive",
+City:"Richmond",
+Province:"BC",
+PostalCode:"V7C 2J8",
+Country:"Canada",
+},
+
+Email:"karlxu0410@gmail.com",
+Password:"xuwenjie360",
+Role :"member",
+CreationDate :  new Date()
+},
+
+{
+FirstName:"Karl",
+LastName:"Xu",
+
+Address:{
+Street:"6520 Clematis Drive",
+City:"Richmond",
+Province:"BC",
+PostalCode:"V7C 2J8",
+Country:"Canada",
+},
+
+Email:"karlxu0410@gmail.com",
+Password:"xuwenjie360",
+Role :"member",
+CreationDate :  new Date()
+},
+
+{
+FirstName:"Karl",
+LastName:"Xu",
+
+Address:{
+Street:"6520 Clematis Drive",
+City:"Richmond",
+Province:"BC",
+PostalCode:"V7C 2J8",
+Country:"Canada",
+},
+
+Email:"karlxu0410@gmail.com",
+Password:"xuwenjie360",
+Role :"member",
+CreationDate :  new Date()
+},
+
+{
+FirstName:"Karl",
+LastName:"Xu",
+
+Address:{
+Street:"6520 Clematis Drive",
+City:"Richmond",
+Province:"BC",
+PostalCode:"V7C 2J8",
+Country:"Canada",
+},
+
+Email:"karlxu0410@gmail.com",
+Password:"xuwenjie360",
+Role :"member",
+CreationDate :  new Date()
+},
+
+{
+FirstName:"Karl",
+LastName:"Xu",
+
+Address:{
+Street:"6520 Clematis Drive",
+City:"Richmond",
+Province:"BC",
+PostalCode:"V7C 2J8",
+Country:"Canada",
+},
+
+Email:"karlxu0410@gmail.com",
+Password:"xuwenjie360",
+Role :"member",
+CreationDate :  new Date()
+},
+
+{
+FirstName:"Karl",
+LastName:"Xu",
+
+Address:{
+Street:"6520 Clematis Drive",
+City:"Richmond",
+Province:"BC",
+PostalCode:"V7C 2J8",
+Country:"Canada",
+},
+
+Email:"karlxu0410@gmail.com",
+Password:"xuwenjie360",
+Role :"member",
+CreationDate :  new Date()
+},
+
+{
+FirstName:"Karl",
+LastName:"Xu",
+
+Address:{
+Street:"6520 Clematis Drive",
+City:"Richmond",
+Province:"BC",
+PostalCode:"V7C 2J8",
+Country:"Canada",
+},
+
+Email:"karlxu0410@gmail.com",
+Password:"xuwenjie360",
+Role :"member",
+CreationDate :  new Date()
+},
+
+{
+FirstName:"Karl",
+LastName:"Xu",
+
+Address:{
+Street:"6520 Clematis Drive",
+City:"Richmond",
+Province:"BC",
+PostalCode:"V7C 2J8",
+Country:"Canada",
+},
+
+Email:"karlxu0410@gmail.com",
+Password:"xuwenjie360",
+Role :"member",
+CreationDate :  new Date()
+},
+
+{
+FirstName:"Karl",
+LastName:"Xu",
+
+Address:{
+Street:"6520 Clematis Drive",
+City:"Richmond",
+Province:"BC",
+PostalCode:"V7C 2J8",
+Country:"Canada",
+},
+
+Email:"karlxu0410@gmail.com",
+Password:"xuwenjie360",
+Role :"member",
+CreationDate :  new Date()
+},
+
+{
+FirstName:"Karl",
+LastName:"Xu",
+
+Address:{
+Street:"6520 Clematis Drive",
+City:"Richmond",
+Province:"BC",
+PostalCode:"V7C 2J8",
+Country:"Canada",
+},
+
+Email:"karlxu0410@gmail.com",
+Password:"xuwenjie360",
+Role :"member",
+CreationDate :  new Date()
+},
+
+{
+FirstName:"Karl",
+LastName:"Xu",
+
+Address:{
+Street:"6520 Clematis Drive",
+City:"Richmond",
+Province:"BC",
+PostalCode:"V7C 2J8",
+Country:"Canada",
+},
+
+Email:"karlxu0410@gmail.com",
+Password:"xuwenjie360",
+Role :"member",
+CreationDate :  new Date()
+}
+
+]

@@ -1,0 +1,24 @@
+[
+{
+  BoatName:"karl",
+  BoatLengthInFeet:5.5,
+  BoatYear:2008,
+  BoatCapacityInPeople:9,
+  BoatPictureUrl:"https://static.pexels.com/photos/163236/luxury-yacht-boat-speed-water-163236.jpeg"	
+},
+{
+  BoatName:"Duncan",
+  BoatLengthInFeet:5.5,
+  BoatYear:2018,
+  BoatCapacityInPeople:99,
+  BoatPictureUrl:"https://static.pexels.com/photos/163236/luxury-yacht-boat-speed-water-163236.jpeg"
+},
+
+{
+  BoatName:"kd",
+  BoatLengthInFeet:5.5,
+  BoatYear:2005,
+  BoatCapacityInPeople:9,
+  BoatPictureUrl:"https://static.pexels.com/photos/163236/luxury-yacht-boat-speed-water-163236.jpeg"
+}
+]

@@ -1,0 +1,21 @@
+<%- layout('layout.ejs') %>
+<h1>Login Page</h1>
+<p>This is the admin login page</p>
+
+
+
+<form name="form1" method="POST" action="/login">
+    <table>
+        <tr>
+        <td>Email</td>
+        <td><input type="text" name="username" ></td>
+        </tr>
+        <tr>
+        <td>Password</td>
+        <td><input type="text" name="password" ></td>
+        </tr>
+        <tr>
+        <td colspan="2"><input type="submit" value="login" ></td>
+        </tr>
+    </table>
+</form>  
